@@ -1,0 +1,120 @@
+﻿:root {
+  --primary: #d4a23e;
+  --primary-dark: #b68833;
+  --bg: #482d20;
+  --bg-deep: #2e1b13;
+  --text-main: #fefefe;
+  --text-soft: #f5ede0;
+  --stroke: rgba(255, 255, 255, 0.12);
+  --surface: rgba(255, 255, 255, 0.06);
+  --surface-strong: rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 22px 55px rgba(0, 0, 0, 0.35);
+  --transition-base: 0.35s ease;
+  --radius-lg: 1.2rem;
+  --radius-pill: 999px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(212, 162, 62, 0.12), transparent 50%),
+    radial-gradient(circle at 80% 0%, rgba(255, 255, 255, 0.05), transparent 45%),
+    var(--bg);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+
+main {
+  overflow: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+.container {
+  width: min(1120px, 88vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  position: relative;
+  padding: 8rem 0;
+  scroll-margin-top: 6.8rem;
+}
+
+.section span.highlight {
+  color: var(--primary);
+}
+
+::selection {
+  background: rgba(212, 162, 62, 0.35);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

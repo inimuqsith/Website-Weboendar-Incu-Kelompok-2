@@ -1,0 +1,358 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoCoffe | Kopi Masa Depan</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container navbar__inner">
+        <a href="#home" class="navbar-logo">Neo<span>Coffe</span>.</a>
+
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Profil</a>
+          <a href="#menu">Produk</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="#" id="hamburger-menu" aria-label="Toggle navigation"
+            ><i class="fa-solid fa-bars"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="container hero__content">
+          <span class="eyebrow animate-fade" style="--delay: 0.1s;">Signature Beans</span>
+          <h1 class="hero__title animate-up">
+            "Setiap cangkir kopi berkualitas dimulai dari biji kopi terbaik"
+          </h1>
+          <p class="hero__subtitle animate-up" style="--delay: 0.18s;">
+            Cita rasa kopi masa depan yang diracik dari biji pilihan dan proses sangrai
+            presisi.
+          </p>
+          <a href="#menu" class="btn hero__cta animate-up" style="--delay: 0.28s;"
+            >Jelajahi Menu</a
+          >
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="about__grid">
+            <div class="about__content">
+              <span class="eyebrow animate-fade">Tentang Kami</span>
+              <h2 class="animate-up">Profil <span>Perusahaan Kita</span></h2>
+              <p class="animate-up" style="--delay: 0.1s;">
+                NeoCoffe adalah pabrik biji kopi yang menghadirkan kualitas terbaik dari petani
+                lokal Indonesia. Kami memadukan pengalaman puluhan tahun dengan teknologi modern
+                untuk menjaga karakter rasa dari setiap varietas.
+              </p>
+              <p class="animate-up" style="--delay: 0.18s;">
+                Komitmen kami meliputi proses seleksi yang ketat, standar sangrai presisi, dan
+                penelusuran asal yang transparan. Bersama mitra petani, kami memastikan setiap
+                batch biji kopi tiba di cangkir Anda dengan cerita yang autentik.
+              </p>
+              <div class="about__actions">
+                <a href="#menu" class="btn btn--ghost animate-up" style="--delay: 0.26s;"
+                  >Kenali Produk Kami</a
+                >
+              </div>
+            </div>
+
+            <div class="about__media animate-up" style="--delay: 0.16s;" aria-hidden="true"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu -->
+      <section id="menu" class="section menu">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow animate-fade">Produk Unggulan</span>
+            <h2 class="animate-up">Produk <span>Kami</span></h2>
+            <p class="animate-up" style="--delay: 0.08s;">
+              Koleksi biji kopi pilihan yang disangrai dengan profil rasa paling dicari oleh
+              pemanggang spesialti hingga industri.
+            </p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card animate-up" style="--delay: 0.12s;">
+              <img src="img/arabica.jpg" alt="Biji kopi Arabika" class="menu-img" />
+              <div class="menu-card-content">
+                <h3>Kopi Arabika</h3>
+                <p>
+                  Rasa asam lembut dengan aroma floral dan chocolatey untuk pengalaman premium di
+                  setiap sajian.
+                </p>
+                <div class="menu-card-footer">
+                  <span class="menu-badge">Origin Toraja</span>
+                  <span class="menu-badge">Medium Roast</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="menu-card animate-up" style="--delay: 0.18s;">
+              <img src="img/robusta.jpg" alt="Biji kopi Robusta" class="menu-img" />
+              <div class="menu-card-content">
+                <h3>Kopi Robusta</h3>
+                <p>
+                  Kepekatan rasa dan kandungan kafein tinggi dengan body tebal, cocok untuk blend
+                  dan kebutuhan industri.
+                </p>
+                <div class="menu-card-footer">
+                  <span class="menu-badge">Origin Lampung</span>
+                  <span class="menu-badge">Dark Roast</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="menu-card animate-up" style="--delay: 0.24s;">
+              <img src="img/excelsa.jpg" alt="Biji kopi Excelsa" class="menu-img" />
+              <div class="menu-card-content">
+                <h3>Kopi Excelsa</h3>
+                <p>
+                  Varietas langka dengan profil rasa unik: perpaduan fruity, tart, dan aroma yang
+                  memikat.
+                </p>
+                <div class="menu-card-footer">
+                  <span class="menu-badge">Origin Sulawesi</span>
+                  <span class="menu-badge">Light Roast</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="menu-card animate-up" style="--delay: 0.3s;">
+              <img src="img/greenbean.jpg" alt="Biji kopi green bean" class="menu-img" />
+              <div class="menu-card-content">
+                <h3>Green Bean</h3>
+                <p>
+                  Biji kopi mentah siap sangrai dengan penelusuran lot jelas, ideal untuk roastery
+                  dan hotel.
+                </p>
+                <div class="menu-card-footer">
+                  <span class="menu-badge">Siap Roasting</span>
+                  <span class="menu-badge">Bulk Order</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team -->
+      <section id="team" class="section team">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow animate-fade">Tim Kreator</span>
+            <h2 class="animate-up">Tim <span>Kami</span></h2>
+            <p class="animate-up" style="--delay: 0.08s;">
+              Lima orang peracik pengalaman digital yang menyajikan cerita kopi Nusantara ke dalam
+              platform daring.
+            </p>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card animate-up" style="--delay: 0.12s;">
+              <div class="team-avatar" aria-hidden="true">SAY</div>
+              <h3>Syahrial Azrul Yuska</h3>
+              <p>Developer</p>
+            </article>
+
+            <article class="team-card animate-up" style="--delay: 0.18s;">
+              <div class="team-avatar" aria-hidden="true">AM</div>
+              <h3>Abdul Muqsith</h3>
+              <p>Developer</p>
+            </article>
+
+            <article class="team-card animate-up" style="--delay: 0.24s;">
+              <div class="team-avatar" aria-hidden="true">FF</div>
+              <h3>Fattan Farel</h3>
+              <p>Content Writter</p>
+            </article>
+
+            <article class="team-card animate-up" style="--delay: 0.3s;">
+              <div class="team-avatar" aria-hidden="true">DMH</div>
+              <h3>Den Malik Hartsa</h3>
+              <p>Designer</p>
+            </article>
+
+            <article class="team-card animate-up" style="--delay: 0.36s;">
+              <div class="team-avatar" aria-hidden="true">SNS</div>
+              <h3>Syifa Nayla Sardy</h3>
+              <p>Media Researcher</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow animate-fade">Hubungi Kami</span>
+            <h2 class="animate-up">Contact <span>NeoCoffe</span></h2>
+            <p class="animate-up" style="--delay: 0.08s;">
+              Terhubung langsung dengan anggota tim kami untuk kolaborasi, konsultasi roasting, atau
+              kemitraan distribusi.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <article class="contact-card animate-up" style="--delay: 0.12s;">
+              <h3>Andini Nugraha</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+628123456701">+62 812-3456-701</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/andnug" target="_blank" rel="noopener"
+                    >@andnug</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="https://instagram.com/andininug" target="_blank" rel="noopener"
+                    >@andininug</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="contact-card animate-up" style="--delay: 0.18s;">
+              <h3>Abdul Muqsith</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+6282141678506">+62 821 4167 8506</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/inimuqsith" target="_blank" rel="noopener"
+                    >@inimuqsith</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="https://www.instagram.com/inimuqsith/" target="_blank" rel="noopener"
+                    >@inimuqsith</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="contact-card animate-up" style="--delay: 0.24s;">
+              <h3>Cahyo Lesmana</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+628123456703">+62 812-3456-703</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/cahles" target="_blank" rel="noopener"
+                    >@cahles</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="https://instagram.com/cahyo.lesmana" target="_blank" rel="noopener"
+                    >@cahyo.lesmana</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="contact-card animate-up" style="--delay: 0.3s;">
+              <h3>Dewi Nirmala</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+628123456704">+62 812-3456-704</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/dewinirm" target="_blank" rel="noopener"
+                    >@dewinirm</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="https://instagram.com/dewi.nirmala" target="_blank" rel="noopener"
+                    >@dewi.nirmala</a
+                  >
+                </li>
+              </ul>
+            </article>
+
+            <article class="contact-card animate-up" style="--delay: 0.36s;">
+              <h3>Edwin Saputra</h3>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+628123456705">+62 812-3456-705</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/edwinsap" target="_blank" rel="noopener"
+                    >@edwinsap</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram"></i>
+                  <a href="https://instagram.com/edwin.saputra" target="_blank" rel="noopener"
+                    >@edwin.saputra</a
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        &copy; 2025 NeoCoffe. Crafted with rasa dan inovasi oleh tim NeoCoffe.
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,124 @@
+﻿/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 93%;
+  }
+
+  .navbar-nav {
+    gap: 2rem;
+  }
+
+  .hero__content {
+    padding-top: 6rem;
+  }
+}
+
+/* Tablet landscape */
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+
+  .hero {
+    background-attachment: scroll;
+  }
+
+  .about__grid {
+    gap: 2.8rem;
+  }
+
+  .about__content {
+    padding: 2.1rem;
+  }
+
+  .menu-card img {
+    height: 200px;
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  html {
+    font-size: 82.5%;
+  }
+
+  #hamburger-menu {
+    display: inline-flex;
+  }
+
+  .navbar__inner {
+    position: relative;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: calc(100% + 1rem);
+    right: 0;
+    flex-direction: column;
+    background: rgba(27, 17, 12, 0.95);
+    padding: 2.4rem 2rem;
+    width: min(280px, 86vw);
+    border-radius: 1.1rem;
+    box-shadow: var(--shadow-lg);
+    transform: translate3d(120%, 0, 0);
+    border: 1px solid var(--stroke);
+  }
+
+  .navbar-nav.active {
+    transform: translate3d(0, 0, 0);
+  }
+
+  .navbar-nav a {
+    font-size: 1.2rem;
+  }
+
+  .navbar-extra {
+    display: flex;
+  }
+
+  .eyebrow::before,
+  .eyebrow::after {
+    display: none;
+  }
+
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about__media {
+    order: 2;
+    min-height: 260px;
+  }
+
+  .about__content {
+    order: 1;
+    padding: 2rem 1.8rem;
+  }
+
+  .team-card {
+    padding: 2.2rem 1.6rem;
+  }
+
+  .contact-card {
+    padding: 2rem 1.6rem;
+  }
+}
+
+/* Small phones */
+@media (max-width: 430px) {
+  html {
+    font-size: 70%;
+  }
+
+  .navbar {
+    padding: 1rem 0;
+  }
+
+  .hero__content {
+    gap: 1rem;
+  }
+
+  .menu-card img {
+    height: 180px;
+  }
+}
